@@ -6,7 +6,10 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "drizzle-orm": "^0.45.3",
+    "drizzle-typebox": "^0.3.3",
+    "elysia": "latest",
+    "uuidv7": "^1.2.1"
   },
   "devDependencies": {
     "bun-types": "latest"
