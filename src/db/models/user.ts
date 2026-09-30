@@ -9,8 +9,8 @@ export const user = pgTable(
     'user',
     {
         ...baseColumns,
-        username: varchar('username').notNull().unique(),
-        password: varchar('password').notNull(),
+        name: varchar('name').notNull().unique(),
         email: varchar('email').notNull().unique(),
+        password: varchar('password').notNull(),
     }
 )
